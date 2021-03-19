@@ -1,6 +1,5 @@
 const getWordLengths = function(someWords) {
-   const expected = someWords.map(word => word.length);
-   return expected;
+  return someWords.map(word => word.length);
 }
 
 module.exports = getWordLengths;

@@ -1,6 +1,5 @@
 const addOne = function(numbers) { 
-   const expected = numbers.map(number => number +1);
-   return expected;
+   return numbers.map(number => number +1);
 };
 
 
